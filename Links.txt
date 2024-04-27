@@ -1,0 +1,8 @@
+Object Storage Implementation - 
+  AWS - https://objectstimp.s3.us-east-2.amazonaws.com/Aviary+Stock+Photo+1.png
+
+Metadata Management Implementation - 
+  AWS - https://metadatamgmtimp.s3.us-east-2.amazonaws.com/TDC_SurveyPaper+(1).pdf
+
+Data Tiering and Caching - 
+  AWS - https://cachingimp.s3.us-east-2.amazonaws.com/TDC_SurveyPaper+(1).pdf
