@@ -30,6 +30,7 @@
      vi) Review and crawler config and click finish. <br>
      vii) The crawler is now created and we can run the crawler manually, whenever the crawler is executed the metadata about the files stored in the s3 bucket will be updated into a AWS Athena Tables. <br>
      viii) We can now write queries to retrieve the data from the Athena. <br>
+     ix) The output can be seen in the file Metadata_implementation_op image where you can see the logs that the crawler is updating the data to the database table that we created in AWS Glue. <br>
 
   **3. Data Tiering and Caching** <br>
     i) Create a S3 bucket with the data in it. <br>
@@ -41,6 +42,7 @@
     vi) Define the behaviors such as Time-To-Live, cache control header, etc. <br>
     vii) Click create, now CloudFront Distribution for the content is created. Use the link in the distribution to access the data via CloudFront. <br>
     viii) In this way Data Tiering is implemented using S3 buckets in AWS and Caching is implemented using CloudFront in AWS.<br>
+    ix) In the file called CacheStatistics_Timestamp we can see that how many page hits are done and the time of the hits and various other statistics. <br>
 
 
 **NOTE : The code for the bucket policy is different for all the three implementations in S3 because there is a combination of various services used. I have given the code for Object storage implementation as an example.
